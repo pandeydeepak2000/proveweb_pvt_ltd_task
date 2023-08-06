@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external stylesheet -->
+    <link href="./css_styles/styles.css" rel="stylesheet" type="text/css" />
+    <title>Proveway_pvt_ltd</title>
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="parent_container">
+        <!-- Header section -->
+        <div class="header">
+            <div class="row_line1">
+                <span>-----------------</span>
+            </div>
+            <div class="row">
+                <span>Bundle & Save</span>
+            </div>
+            <div class="row_line2">
+                <span>-----------------</span>
+            </div>
+        </div>
+
+        <!-- Box-1: 1 pair -->
+        <div class="container_2">
+            <div class="card box">
+                <label>
+                    <input id="radio-1" type="radio" name="card-selector" onclick="toggleOptions(1)">
+                    1 pair
+                    <div id="options-1" class="options">
+                        <select>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <select>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </div>
+                    <p class="text">DKK 195.00</p>
+                </label>
+                <p class="discount">50% OFF</p>
+            </div>
+        </div>
+
+        <!-- Box-2: 2 pairs -->
+        <div class="container_3">
+            <div class="card box">
+                <label>
+                    <input id="radio-2" type="radio" name="card-selector" onclick="toggleOptions(2)">
+                    2 pairs
+                    <div id="options-2" class="options">
+                        <select>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <select>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </div>
+                    <p class="text">DKK 345.00</p>
+                </label>
+                <p class="discount">Most Popular</p>
+                <p class="discount">40% OFF</p>
+            </div>
+        </div>
+
+        <!-- Box-3: 3 pairs -->
+        <div class="container_4">
+            <div class="card box">
+                <label>
+                    <input id="radio-3" type="radio" name="card-selector" onclick="toggleOptions(3)">
+                    3 pairs
+                    <div id="options-3" class="options">
+                        <select>
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <select>
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="green">Green</option>
+                        </select>
+                    </div>
+                    <p class="text">DKK 345.00</p>
+                </label>
+                <p class="discount">60% OFF</p>
+            </div>
+        </div>
+
+        <!-- Total section -->
+        <div class="container_5">
+            <div class="total">
+                <p style="color: rgba(0, 127, 97, 1); background: none;">Free 2 day shipping</p>
+                <p>total: DKK 306.00</p>
+            </div>
+        </div>
+
+        <!-- Add to cart button -->
+        <div class="container_6">
+            <div class="added">
+                <button class="added cart"> + Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/script.js"></script>
+</html>

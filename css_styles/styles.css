@@ -1,0 +1,102 @@
+/* Header */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.header:hover {
+    border: 2px solid gray; /* Highlight on hover */
+}
+
+/* Container 2 */
+.container_2:hover > .box {
+    border: 2px solid blue; /* Highlight box 1 on hover */
+}
+
+.row:hover {
+    border: 2px solid green; /* Highlight rows on hover */
+    color: green;
+}
+
+.row_line2:hover,
+.row_line1:hover {
+    border: 2px solid pink; /* Highlight row lines on hover */
+}
+
+/* Container 3 */
+.container_3:hover > .box {
+    transform: scale(1.1); /* Enlarge and highlight box 2 on hover */
+    border: 2px solid green;
+}
+
+/* Container 4 */
+.container_4:hover > .box {
+    border: 2px solid yellowgreen; /* Highlight box 3 on hover */
+}
+
+.container_3:hover > .box_2 {
+    transform: scale(1.1); /* Enlarge and highlight box 2 on hover */
+    border: 2px solid yellowgreen;
+}
+
+/* Text and Discount Styles */
+.text,
+.discount {
+    color: black;
+}
+
+.text:hover,
+.discount:hover {
+    border: 1px solid black; /* Add border on hover for text and discounts */
+}
+
+/* Total Section */
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.total:hover {
+    border: 1px solid black; /* Highlight total section on hover */
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.card:hover {
+    border: 1px solid black; /* Highlight card on hover */
+}
+
+/* Options */
+.options {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Add to Cart Button */
+.added {
+    display: flex;
+    justify-content: center;
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.added:hover {
+    background-color: blue; /* Highlight button on hover */
+    border: 2px solid yellowgreen;
+}
